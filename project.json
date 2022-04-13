@@ -1,0 +1,49 @@
+{
+  "name": "Value Tracking",
+  "description": "This Library contains one activity (TrackBenefit) that will log values for tracking. Values can be time saved (minutes) or monetary amounts (USD, EUR, JPY)",
+  "main": "TrackBenefit.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "21.4.1",
+    "UiPath.UIAutomation.Activities": "21.10.3",
+    "UiPathTeam.GetProcessInfo.Activities": "1.0.0"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.3.0",
+  "projectVersion": "1.0.4",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": [
+        "Tools/AddBenefitToLog.xaml",
+        "Tools/AddBenefitToQueue.xaml"
+      ]
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
