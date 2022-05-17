@@ -4,7 +4,6 @@
   "main": "TrackBenefit.xaml",
   "dependencies": {
     "UiPath.System.Activities": "21.4.1",
-    "UiPath.UIAutomation.Activities": "21.10.3",
     "UiPathTeam.GetProcessInfo.Activities": "1.0.0"
   },
   "webServices": [],
